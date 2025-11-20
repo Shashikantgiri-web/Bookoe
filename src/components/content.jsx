@@ -5,7 +5,7 @@ import '../App.css'
 const content = () => {
   const [api, setApi] = useState([]);
   const fetchApi = async () => {
-    let url = await fetch("https://jsonplaceholder.typicode.com/posts");
+    let url = await fetch("https://openlibrary.org/subjects/thrillers.json");
     let data = await url.json();
     setApi(data);
     console.log(data);
