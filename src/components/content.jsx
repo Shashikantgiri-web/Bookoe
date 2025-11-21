@@ -118,7 +118,7 @@ const content = () => {
           </div>
         </div>
         <div className='w-full h-[85%] grid grid-cols-4 grid-rows-2 justify-center items-center gap-1.5'>
-          {api_2.slice(4, 11).map((book, idx) => {
+          {api_2.slice(4, 12).map((book, idx) => {
             if (book.key || idx < 8) {
               return <div className='w-[99%] h-[380px] border-2 border-amber-300 rounded-xl shadow-lg shadow-gray-500 flex flex-col justify-start items-center'>
                 <div className='w-[99%] h-[60%] flex justify-center items-center overflow-hidden rounded-[10px]'>
