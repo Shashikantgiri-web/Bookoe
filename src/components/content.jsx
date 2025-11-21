@@ -5,7 +5,7 @@ import '../App.css'
 const content = () => {
   const [api, setApi] = useState([]);
   const fetchApi = async () => {
-    let url = await fetch("https://openlibrary.org/subjects/thrillers.json");
+    let url = await fetch("https://openlibrary.org/subjects/trending.json");
     let data = await url.json();
     setApi(data.works || []);
     console.log(data);
