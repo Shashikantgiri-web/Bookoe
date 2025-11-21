@@ -7,7 +7,7 @@ const content = () => {
   const fetchApi = async () => {
     let url = await fetch("https://openlibrary.org/subjects/thrillers.json");
     let data = await url.json();
-    setApi(data);
+    setApi(data.works || []);
     console.log(data);
   }
   useEffect(() => {
@@ -26,15 +26,15 @@ const content = () => {
           </div>
         </div>
         <div className='w-full h-[85%] grid grid-cols-4 grid-rows-2 justify-center items-center gap-1.5'>
-          {api.map((api) => {
-            if (api.id <= 8) {
+          {api.slice(0, 8).map((book, idx) => {
+            if (book.key || idx < 8) {
               return <div className='w-[99%] h-[380px] border-2 border-amber-300 rounded-xl shadow-lg shadow-gray-500 flex flex-col justify-start items-center'>
                 <div className='w-[99%] h-[60%] flex justify-center items-center'>
-                  <img src={`https://covers.openlibrary.org/b/id/${api.cover_id}-M.jpg`} className='w-full'/>
+                  <img src={book.cover_id ? `https://covers.openlibrary.org/b/id/${book.cover_id}-M.jpg` : '/fallback.jpg'} alt={book.title || 'cover'} className='w-full' />
                 </div>
                 <div className='w-[99%] h-[40%] p-0.5 flex flex-col justify-between items-center'>
                   <div className='w-[99%] h-[49%] flex justify-center items-center'>
-                    <h4>{api.title}</h4>
+                    <h4>{book.title}</h4>
                   </div>
                   <div className='w-[99%] h-[49%] flex flex-row justify-center items-center'>
                     <div className='w-[49%] h-[99%] flex justify-center items-center'>
