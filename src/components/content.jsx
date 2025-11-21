@@ -29,8 +29,8 @@ const content = () => {
           {api.slice(0, 8).map((book, idx) => {
             if (book.key || idx < 8) {
               return <div className='w-[99%] h-[380px] border-2 border-amber-300 rounded-xl shadow-lg shadow-gray-500 flex flex-col justify-start items-center'>
-                <div className='w-[99%] h-[60%] flex justify-center items-center'>
-                  <img src={book.cover_id ? `https://covers.openlibrary.org/b/id/${book.cover_id}-M.jpg` : '/fallback.jpg'} alt={book.title || 'cover'} />
+                <div className='w-[99%] h-[60%] flex justify-center items-center overflow-hidden rounded-[10px]'>
+                  <img src={book.cover_id ? `https://covers.openlibrary.org/b/id/${book.cover_id}-M.jpg` : '/fallback.jpg'} alt={book.title || 'cover'} className="object-cover w-full h-full" />
                 </div>
                 <div className='w-[99%] h-[40%] p-0.5 flex flex-col justify-between items-center'>
                   <div className='w-[99%] h-[49%] flex justify-center items-center'>
