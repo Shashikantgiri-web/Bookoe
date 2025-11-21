@@ -26,10 +26,9 @@ const content = () => {
           </div>
         </div>
         <div className='w-full h-[85%] grid grid-cols-4 grid-rows-2 justify-center items-center gap-1.5'>
-          
           {api.map((api) => {
             if (api.id <= 8) {
-              return (<div className='w-[99%] h-[380px] border-2 border-amber-300 rounded-xl shadow-lg shadow-gray-500 flex flex-col justify-start items-center'>
+              return <div className='w-[99%] h-[380px] border-2 border-amber-300 rounded-xl shadow-lg shadow-gray-500 flex flex-col justify-start items-center'>
                 <div className='w-[99%] h-[60%] flex justify-center items-center'>
                   <img src={`https://covers.openlibrary.org/b/id/${api.cover_id}-M.jpg`} className='w-full'/>
                 </div>
@@ -50,7 +49,7 @@ const content = () => {
                     </div>
                   </div>
                 </div>
-              </div>)
+              </div>
             }
           })}
         </div>
