@@ -91,7 +91,7 @@ const main_body = () => {
     category.current.style.display = "none";
   }
   return (
-    <div className='w-full max-w-full h-auto min-h-screen p-[10px] md:p-[10vh] bg-[#FAFAFBFF] flex flex-col md:flex-row justify-start items-start gap-[20px] pt-[80px] md:pt-[10vh]' id='main'>
+    <div className='w-full max-w-full h-auto min-h-screen p-2.5 md:p-[10vh] bg-[#FAFAFBFF] flex flex-col md:flex-row justify-start items-start gap-5 pt-20 md:pt-[10vh]' id='main'>
       <div className='w-[99%] md:w-[20%] h-auto md:h-[99%] flex flex-col justify-center items-start'>
         <div className='w-[99%] h-auto flex md:hidden flex-col justify-center items-start gap-2.5 p-2 rounded-2xl shadow-xs shadow-gray-500 overflow-hidden'>
           <div className='w-[99%] h-[50%] md:flex justify-center items-center col-span-4 p-[4px]'>
@@ -157,7 +157,7 @@ const main_body = () => {
             </div>
           </div>
         </div>
-        <div className='w-[99%] h-auto hidden md:flex flex-col justify-center items-start gap-2.5 p-2 rounded-2xl shadow-xs shadow-gray-500 sticky top-[80px] self-start'>
+        <div className='w-[99%] h-auto hidden md:flex flex-col justify-center items-start gap-2.5 p-2 rounded-2xl shadow-xs shadow-gray-500 sticky top-20 self-start'>
           <div className='w-[99%] h-[50%] md:flex justify-center items-center col-span-4 p-[4px]'>
             <h1 className='w-[99%] h-[99%] flex justify-center items-center text-[20px] font-bold'>Filter by Category</h1>
           </div>

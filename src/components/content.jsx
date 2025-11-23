@@ -120,7 +120,7 @@ const Content = () => {
   return (
     <div className='w-full h-full flex flex-col justify-start items-center gap-[5%]'>
       {/* Recommended For You - Desktop */}
-      <div className='w-full h-[950px] hidden md:flex flex-col justify-center items-center border-2 border-[#778899] p-[10px]'>
+      <div className='w-full h-[950px] hidden md:flex flex-col justify-center items-center border-2   p-[10px]'>
         <div className='w-full h-[15%] flex flex-col justify-center items-center gap-2 opacity-0 animate-[fadeIn_0.8s_ease-out_0.2s_forwards]'>
           <div className='w-[99%] h-[48%] pl-2.5 flex justify-start items-center'>
             <h1 className='text-[30px] font-bold text-[#171A1FFF] transform transition-all duration-300 hover:scale-105 hover:text-[#2a2ac2]'>
@@ -141,7 +141,7 @@ const Content = () => {
       </div>
 
       {/* Recommended For You - Mobile */}
-      <div className='w-full h-[1400px] flex md:hidden flex-col justify-center items-center border-2 border-[#778899] p-[10px]'>
+      <div className='w-full h-[1400px] flex md:hidden flex-col justify-center items-center border-2   p-[10px]'>
         <div className='w-full h-[15%] flex flex-col justify-center items-center gap-2 opacity-0 animate-[fadeIn_0.8s_ease-out_0.2s_forwards]'>
           <div className='w-[99%] h-[48%] pl-2.5 flex justify-start items-center'>
             <h1 className='text-[30px] font-bold text-[#171A1FFF]'>Recommended For You</h1>
@@ -160,7 +160,7 @@ const Content = () => {
       </div>
 
       {/* Recently Added Books - Desktop */}
-      <div className='w-full h-[950px] hidden md:flex flex-col justify-center items-center border-2 border-[#778899] p-[10px]'>
+      <div className='w-full h-[950px] hidden md:flex flex-col justify-center items-center border-2   p-[10px]'>
         <div className='w-full h-[15%] flex flex-col justify-center items-center gap-2 opacity-0 animate-[fadeIn_0.8s_ease-out_0.2s_forwards]'>
           <div className='w-[99%] h-[48%] pl-2.5 flex justify-start items-center'>
             <h1 className='text-[30px] font-bold text-[#171A1FFF] transform transition-all duration-300 hover:scale-105 hover:text-[#2a2ac2]'>
@@ -181,7 +181,7 @@ const Content = () => {
       </div>
 
       {/* Recently Added Books - Mobile */}
-      <div className='w-full h-[1400px] flex md:hidden flex-col justify-center items-center border-2 border-[#778899] p-[10px]'>
+      <div className='w-full h-[1400px] flex md:hidden flex-col justify-center items-center border-2   p-[10px]'>
         <div className='w-full h-[15%] flex flex-col justify-center items-center gap-2 opacity-0 animate-[fadeIn_0.8s_ease-out_0.2s_forwards]'>
           <div className='w-[99%] h-[48%] pl-2.5 flex justify-start items-center'>
             <h1 className='text-[30px] font-bold text-[#171A1FFF]'>Recently Added Books</h1>
@@ -200,7 +200,7 @@ const Content = () => {
       </div>
 
       {/* Featured Books - Desktop */}
-      <div className='w-full h-[950px] hidden md:flex flex-col justify-center items-center border-2 border-[#778899] p-[10px]'>
+      <div className='w-full h-[950px] hidden md:flex flex-col justify-center items-center border-2   p-[10px]'>
         <div className='w-full h-[15%] flex flex-col justify-center items-center gap-2 opacity-0 animate-[fadeIn_0.8s_ease-out_0.2s_forwards]'>
           <div className='w-full h-[15%] flex flex-col justify-center items-center gap-2'>
             <h1 className='text-[30px] font-bold text-[#171A1FFF] transform transition-all duration-300 hover:scale-105 hover:text-[#2a2ac2]'>
@@ -221,7 +221,7 @@ const Content = () => {
       </div>
 
       {/* Featured Books - Mobile */}
-      <div className='w-full h-[1400px] flex md:hidden flex-col justify-center items-center border-2 border-[#778899] p-[10px]'>
+      <div className='w-full h-[1400px] flex md:hidden flex-col justify-center items-center border-2   p-[10px]'>
         <div className='w-full h-[15%] flex flex-col justify-center items-center gap-2 opacity-0 animate-[fadeIn_0.8s_ease-out_0.2s_forwards]'>
           <div className='w-full h-[15%] flex flex-col justify-center items-center gap-2'>
             <h1 className='text-[30px] font-bold text-[#171A1FFF]'>Featured Books</h1>
