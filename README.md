@@ -62,8 +62,7 @@ To contribute to this project, please fork the repository and submit a pull requ
 ## 📝 License
 This project is licensed under the MIT License.
 
-## 📬 Contact
-For any questions or concerns, please contact us at [support@example.com](mailto:shashikantshankar707@gmail.com).
+## 📬 ContactFor any questions or concerns, please contact us at [shashikantshankar707@gmail.com](mailto:shashikantshankar707@gmail.com).
 
 ## 💖 Thanks Message
 We would like to thank all the contributors and users of this project for their support and feedback. This project is made possible by the open-source community, and we are grateful for your participation.
